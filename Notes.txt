@@ -1,0 +1,22 @@
+Install NextJS Project - npm create next-app@latest
+
+To run Project - npm run dev
+
+Page.tsx - Index/Home Page
+
+Layout.tsx - This will remain same and shared between all pages, layout page is never re-rendered
+
+
+Static Routing:
+    Always create folders for creating routes:
+        for creating a dashboard:
+            dashboard/page.tsx -> http://localhost:3000/dashboard
+        for creating profile page:
+            profile/page.tsx -> http://localhost:3000/profile
+    Linking page using Link:
+        Import Link form next/Link
+        Using like <Link href="/dashboard">Text</Link>
+
+Dynamic Routing:
+    Always create *[slug]* 'array brackets' for creating Dynamic Routing
+    Link will be like -> http://localhost:3000/Blogs/07f8ad-f8adfadfadf
