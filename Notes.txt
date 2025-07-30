@@ -19,4 +19,7 @@ Static Routing:
 
 Dynamic Routing:
     Always create *[slug]* 'array brackets' for creating Dynamic Routing
-    Link will be like -> http://localhost:3000/Blogs/07f8ad-f8adfadfadf
+    Link will be like -> http://localhost:3000/Blogs/07f8ad-f8adfadfadf 
+
+NextJS is a server component by default, to use any hook like useState hook (which are client component), we have create a separate folders "components" and then
+we have to write *"use client"* and then we have to write our code.
